@@ -11,12 +11,19 @@ function Footer() {
     }}>
       <h2>Contact Us</h2>
       <p>
-        To place orders call, text, or WhatsApp:{" "}
-        <a href="tel:1234567890">123-456-7890</a>
+        Takeouts and Catering Orders only , Price mentioned per Plate
       </p>
       <p>
-        <a href="sms:1234567890" style={{ marginRight: "1rem" }}>Text</a>
-        <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        To place orders call, text, or WhatsApp:{" "}
+        <a href="tel:612-735-2692">612-735-2692</a>
+      </p>
+       <p>
+        WhatsApp:{" "}
+        <a href="tel:901-602-7007">901-602-7007</a>
+      </p>
+      <p>
+        <a href="sms:612-735-2692" style={{ marginRight: "1rem" }}>Text</a>
+        <a href="https://wa.me/612-735-2692" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </p>
       <hr style={{ margin: "2rem 0", borderColor: "#eee" }} />
       <p style={{ fontSize: "0.9rem", color: "#888" }}>

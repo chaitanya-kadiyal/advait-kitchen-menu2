@@ -1,67 +1,624 @@
 [
   {
-    "category": "Curries",
+    "category": "Maharashtrian SPECIALS",
     "items": [
-      {
-        "name": "Paneer Tikka Masala",
-        "price": "₹180",
-        "description": "Cottage cheese cooked in creamy tomato gravy."
-      },
-      {
-        "name": "Veg Curry",
-        "price": "₹120",
-        "description": "A spicy and flavorful curry with mixed vegetables."
-      },
-      {
-        "name": "Dal Tadka",
-        "price": "₹100",
-        "description": "Yellow lentils tempered with spices and herbs."
-      }
-    ]
+    {
+      "name": "Sprouted Mataki Usal",
+      "price": 12.99,
+      "description": "A flavorful curry made with sprouted matki beans cooked in traditional Maharashtrian spices, served with fresh coriander."
+    },
+    {
+      "name": "Potato Bhaji",
+      "price": 12.99,
+      "description": "Classic Maharashtrian-style potato stir-fry, seasoned with mustard seeds, turmeric, and curry leaves."
+    },
+    {
+      "name": "Sprouted Green Moong Usal",
+      "price": 12.99,
+      "description": "Nutritious green moong beans sprouted and cooked in a mildly spiced curry, garnished with coconut."
+    },
+    {
+      "name": "Akkha Massor",
+      "price": 12.99,
+      "description": "Whole red lentils simmered in a spicy onion-tomato gravy, a rustic Vidarbha specialty."
+    },
+    {
+      "name": "Stuffed Bhindi/Okra",
+      "price": 12.99,
+      "description": "Tender okra stuffed with a spicy peanut and coconut mixture, pan-fried to perfection."
+    },
+    {
+      "name": "Stuffed Brinjal",
+      "price": 12.99,
+      "description": "Baby eggplants filled with a rich blend of ground peanuts, coconut, and Maharashtrian masala."
+    },
+    {
+      "name": "Tadka Toor Dal/ Aamti",
+      "price": 12.99,
+      "description": "Yellow split pigeon peas (toor dal) cooked with a tangy, spicy tadka, a staple comfort food."
+    },
+    {
+      "name": "Methi Sabji",
+      "price": 12.99,
+      "description": "Fresh fenugreek leaves sautéed with potatoes and mild spices for a wholesome sabji."
+    },
+    {
+      "name": "Palak Dal Sabji / Palak Gargatta",
+      "price": 12.99,
+      "description": "Spinach and lentils cooked together with garlic and traditional spices for a nutritious curry."
+    },
+    {
+      "name": "Besan Pithal",
+      "price": 10.99,
+      "description": "A rustic dish of gram flour cooked with spices, served soft and creamy, a true farmer’s delight."
+    },
+    {
+      "name": "Milk Besan Pithal",
+      "price": 12.99,
+      "description": "A creamy version of pithal made with milk and besan, offering a rich and smooth texture."
+    },
+    {
+      "name": "Nagpur Style Shev Bhaji",
+      "price": 11.99,
+      "description": "A spicy tomato-onion curry topped with crunchy shev, a street food favorite from Nagpur."
+    },
+    {
+      "name": "Batata Vada 2 pieces / 1 plate",
+      "price": 7,
+      "description": "Golden-fried potato fritters coated in besan batter, served hot with chutney."
+    },
+    {
+      "name": "Misal Paav",
+      "price": 13.99,
+      "description": "Spicy sprouted bean curry topped with farsan, onions, and served with soft pav bread."
+    },
+    {
+      "name": "Katvada",
+      "price": 9.99,
+      "description": "A delightful snack of potato vada served with spicy kat (gravy) and pav."
+    },
+    {
+      "name": "Crispy Onion Pakoda",
+      "price": 5.99,
+      "description": "Crunchy onion fritters deep-fried to perfection, ideal for tea time."
+    },
+    {
+      "name": "Sabudana Khichadi",
+      "price": 7.99,
+      "description": "A light and flavorful dish of soaked tapioca pearls, peanuts, and potatoes, perfect for fasting."
+    },
+    {
+      "name": "Sabudana Vada",
+      "price": 7.99,
+      "description": "Crispy vadas made with tapioca pearls, potatoes, and peanuts, deep-fried until golden."
+    },
+    {
+      "name": "Satyanarayan Prasad Sheera",
+      "price": 13.99,
+      "description": "A traditional sweet semolina pudding made for Satyanarayan puja, flavored with cardamom and nuts."
+    },
+    {
+      "name": "Plain Sheera",
+      "price": 10.99,
+      "description": "Classic semolina halwa, prepared with ghee, sugar, and cardamom."
+    },
+    {
+      "name": "Kadhi",
+      "price": 9.99,
+      "description": "Buttermilk-based curry flavored with besan and spices, a cooling side dish."
+    },
+    {
+      "name": "Kadhi Vada",
+      "price": 12.99,
+      "description": "Soft lentil fritters soaked in tangy kadhi, a delicious and hearty meal."
+    }
+  ]
   },
+  {
+    "category": "Desi CURRIES",
+    "items": [
+    {
+      "name": "Rajama Masala",
+      "price": 9.99,
+      "description": "Hearty North Indian curry of red kidney beans simmered in a spiced onion-tomato gravy, best served with rice."
+    },
+    {
+      "name": "Chole",
+      "price": 9.99,
+      "description": "Punjabi-style chickpeas cooked in a tangy and spicy tomato-based masala, garnished with fresh coriander."
+    },
+    {
+      "name": "Gobi Aloo",
+      "price": 9.99,
+      "description": "Classic dry curry of cauliflower and potatoes sautéed with cumin, turmeric, and traditional Indian spices."
+    },
+    {
+      "name": "Cabage Peas",
+      "price": 9.99,
+      "description": "Shredded cabbage and green peas stir-fried with mild spices for a light and healthy curry."
+    },
+    {
+      "name": "Lauki with Chanadal",
+      "price": 9.99,
+      "description": "Bottle gourd and split Bengal gram cooked together in a mildly spiced curry, rich in protein and fiber."
+    },
+    {
+      "name": "Mix Veg",
+      "price": 11.99,
+      "description": "Assorted seasonal vegetables cooked in a flavorful onion-tomato gravy with aromatic spices."
+    },
+    {
+      "name": "Tinda Aloo(Tindora)",
+      "price": 13.99,
+      "description": "Ivy gourd and potatoes sautéed in Indian spices, a unique and tasty vegetable preparation."
+    },
+    {
+      "name": "Aloo Matar",
+      "price": 9.99,
+      "description": "Potatoes and green peas cooked in a mildly spiced tomato-onion gravy, a comforting classic."
+    },
+    {
+      "name": "Aloo Tomato",
+      "price": 9.99,
+      "description": "Potatoes simmered in a tangy tomato gravy, delicately flavored with cumin and coriander."
+    },
+    {
+      "name": "Jerra Aloo",
+      "price": 9.99,
+      "description": "Potatoes sautéed with cumin seeds and dry spices, a quick and flavorful side dish."
+    },
+    {
+      "name": "Karela Bharwa",
+      "price": 11.99,
+      "description": "Bitter gourd stuffed with spicy masala and slow-cooked for a deliciously unique flavor."
+    },
+    {
+      "name": "Sev Tomato",
+      "price": 9.99,
+      "description": "A tangy tomato curry topped with crunchy sev, a popular Gujarati comfort dish."
+    },
+    {
+      "name": "Kala Chana",
+      "price": 9.99,
+      "description": "Black chickpeas cooked in a spiced onion-tomato curry, nutritious and filling."
+    },
+    {
+      "name": "Veg Korma",
+      "price": 11.99,
+      "description": "Assorted vegetables cooked in a rich, creamy cashew and yogurt-based gravy with aromatic spices."
+    },
+    {
+      "name": "Kaju Curry",
+      "price": 14.99,
+      "description": "Cashew nuts simmered in a creamy, mildly spiced tomato-onion gravy, a royal treat."
+    },
+    {
+      "name": "Kaju Masala",
+      "price": 14.99,
+      "description": "Roasted cashew nuts cooked in a spicy, flavorful masala gravy, perfect with naan or rice."
+    },
+    {
+      "name": "Bhindi Fry",
+      "price": 13.99,
+      "description": "Tender okra slices sautéed with onions and spices until crisp, a savory dry side dish."
+    },
+    {
+      "name": "Bhindi Masala",
+      "price": 13.99,
+      "description": "Okra cooked with onions, tomatoes, and traditional spices for a flavorful semi-dry curry."
+    },
+    {
+      "name": "Bharwa Bhindi",
+      "price": 13.99,
+      "description": "Okra stuffed with a spicy masala filling and pan-fried to perfection."
+    },
+    {
+      "name": "Dahi Bhindi",
+      "price": 13.99,
+      "description": "Okra cooked in a tangy yogurt-based gravy, delicately spiced and creamy."
+    },
+    {
+      "name": "Bagara Baigan",
+      "price": 14.99,
+      "description": "Baby eggplants simmered in a rich peanut, sesame, and coconut gravy, a Hyderabadi specialty."
+    },
+    {
+      "name": "Veg Kolhapuri",
+      "price": 11.99,
+      "description": "Mixed vegetables cooked in a spicy Kolhapuri masala, bursting with bold flavors."
+    },
+    {
+      "name": "Mix Veg Paneer",
+      "price": 13.99,
+      "description": "A delightful blend of mixed vegetables and paneer cubes cooked in a rich, mildly spiced gravy."
+    },
+    {
+      "name": "Methi Matar Malai",
+      "price": 11.99,
+      "description": "Fresh fenugreek leaves and green peas simmered in a creamy, mildly sweet gravy."
+    }
+  ]
+},
+  {
+    "category": "PANEER CURRIES",
+    "items":
+   [
+    {
+      "name": "Paneer Butter Masala",
+      "price": 11.99,
+      "description": "A rich and creamy curry made with soft paneer cubes simmered in a buttery tomato-based gravy, finished with cream and aromatic spices."
+    },
+    {
+      "name": "Shahi Paneer",
+      "price": 11.99,
+      "description": "A royal delicacy featuring paneer cubes in a luscious cashew and cream gravy, mildly spiced and lightly sweetened for a regal taste."
+    },
+    {
+      "name": "Matar Paneer",
+      "price": 11.99,
+      "description": "Paneer and green peas cooked together in a flavorful onion-tomato gravy, garnished with fresh coriander."
+    },
+    {
+      "name": "Palak Paneer",
+      "price": 11.99,
+      "description": "Soft paneer cubes cooked in a smooth spinach puree, delicately seasoned with Indian spices for a healthy and tasty dish."
+    },
+    {
+      "name": "Paneer Tika Masala",
+      "price": 11.99,
+      "description": "Succulent paneer tikka pieces simmered in a spicy, tangy, and creamy masala gravy, bursting with smoky flavors."
+    },
+    {
+      "name": "Kadhai Paneer",
+      "price": 11.99,
+      "description": "Paneer cubes stir-fried with bell peppers, onions, and tomatoes in a robust, spicy kadhai masala."
+    }
+  ]
+},
   {
     "category": "Rice",
     "items": [
-      {
-        "name": "Steamed Rice",
-        "price": "₹50",
-        "description": "Fluffy steamed basmati rice."
-      },
-      {
-        "name": "Jeera Rice",
-        "price": "₹70",
-        "description": "Basmati rice tempered with cumin."
-      }
+    {
+      "name": "Plain Rice",
+      "price": 5.99,
+      "description": "Steamed white rice cooked to fluffy perfection, ideal as a base for curries and dals."
+    },
+    {
+      "name": "Jeera Rice",
+      "price": 7.99,
+      "description": "Aromatic basmati rice lightly sautéed with cumin seeds and ghee, offering a subtle flavor."
+    },
+    {
+      "name": "Paneer Fried Rice",
+      "price": 11.99,
+      "description": "Basmati rice stir-fried with paneer cubes, fresh vegetables, and mild Indo-Chinese spices."
+    },
+    {
+      "name": "Veg Pulao",
+      "price": 11.99,
+      "description": "Fragrant rice cooked with assorted vegetables and whole spices for a colorful, flavorful dish."
+    },
+    {
+      "name": "Tawa Pulao",
+      "price": 9.99,
+      "description": "Mumbai-style spicy rice dish made on a tawa with mixed vegetables and aromatic pav bhaji masala."
+    },
+    {
+      "name": "Pea's Pulao",
+      "price": 9.99,
+      "description": "Basmati rice cooked with sweet green peas and subtle spices, a simple and classic preparation."
+    },
+    {
+      "name": "Lemon Rice",
+      "price": 9.99,
+      "description": "Tangy South Indian rice dish tempered with mustard seeds, curry leaves, peanuts, and fresh lemon juice."
+    },
+    {
+      "name": "Masala Rice",
+      "price": 9.99,
+      "description": "Spiced rice cooked with onions, tomatoes, and a blend of Indian masalas, perfect as a standalone meal."
+    },
+    {
+      "name": "Masala Khichdi",
+      "price": 11.99,
+      "description": "A wholesome one-pot meal with rice, lentils, vegetables, and aromatic spices, cooked to a creamy texture."
+    },
+    {
+      "name": "Veg Dum Biriyani",
+      "price": 13.99,
+      "description": "Layered rice and vegetables slow-cooked with biryani spices, garnished with fried onions and coriander."
+    },
+    {
+      "name": "Plain Khichadi",
+      "price": 9.99,
+      "description": "Comforting mix of rice and lentils simmered together with mild spices, light and nourishing."
+    },
+    {
+      "name": "Yogurt Rice / Dahi Bhaat",
+      "price": 9.99,
+      "description": "Cool and creamy rice mixed with fresh yogurt, tempered with mustard seeds and curry leaves."
+    }
     ]
   },
   {
-    "category": "Breads",
+    "category": "Desi Snacks & Chaats",
     "items": [
-      {
-        "name": "Chapati (2 pcs)",
-        "price": "₹30",
-        "description": "Soft whole wheat flatbreads."
-      },
-      {
-        "name": "Butter Naan",
-        "price": "₹40",
-        "description": "Soft naan topped with butter."
-      }
-    ]
+    {
+      "name": "Special Pav-Bhaji",
+      "price": 12.99,
+      "description": "A Mumbai street food favorite: buttery spiced vegetable mash served with soft, toasted pav bread and fresh onions."
+    },
+    {
+      "name": "Ragda Patties",
+      "price": 11.99,
+      "description": "Golden potato patties topped with spicy white pea curry, chutneys, onions, and sev, a classic chaat delight."
+    },
+    {
+      "name": "Kala Channa Chat",
+      "price": 9.99,
+      "description": "A tangy and healthy snack made from black chickpeas tossed with onions, tomatoes, coriander, and zesty spices."
+    },
+    {
+      "name": "Chilli Paneer",
+      "price": 14.99,
+      "description": "Paneer cubes stir-fried with bell peppers, onions, and a spicy Indo-Chinese sauce, garnished with spring onions."
+    },
+    {
+      "name": "Chilli Potato",
+      "price": 12.99,
+      "description": "Crispy potato fingers tossed in a spicy, tangy sauce with peppers and onions, an Indo-Chinese favorite."
+    },
+    {
+      "name": "Veg Haka Noodles",
+      "price": 12.99,
+      "description": "Stir-fried noodles with assorted vegetables, tossed in soy sauce and Indo-Chinese spices for a flavorful treat."
+    },
+    {
+      "name": "Papadi Chaat",
+      "price": 12.99,
+      "description": "Crunchy papadis topped with potatoes, chutneys, yogurt, and spices, finished with sev and pomegranate."
+    },
+    {
+      "name": "Khaman Dhokla",
+      "price": 9.99,
+      "description": "Soft, fluffy steamed cakes made from fermented gram flour, garnished with mustard seeds and fresh coriander."
+    },
+    {
+      "name": "Poha",
+      "price": 9.99,
+      "description": "Flattened rice cooked with onions, peas, peanuts, and mild spices, finished with a squeeze of lemon."
+    },
+    {
+      "name": "Mix Veg Upma",
+      "price": 9.99,
+      "description": "A savory South Indian breakfast made from semolina and mixed vegetables, tempered with curry leaves and mustard seeds."
+    },
+    {
+      "name": "Idali Plate/6Piece",
+      "price": 11.99,
+      "description": "A plate of six soft, steamed rice cakes served with coconut chutney and flavorful sambar."
+    },
+    {
+      "name": "Appam Plate/6Piece",
+      "price": 11.99,
+      "description": "Six lacy, soft-centered South Indian pancakes made from fermented rice and coconut batter, served with stew or chutney."
+    },
+    {
+      "name": "Marmara Bhel",
+      "price": 7.99,
+      "description": "A crunchy, light bhel made with puffed rice, sev, onions, tomatoes, and tangy chutneys for a quick snack."
+    }
+  ]
   },
   {
-    "category": "Veg Entrees",
+   "category":"INDIAN BREADS",
     "items": [
-      {
-        "name": "Veg Pulao",
-        "price": "₹90",
-        "description": "Basmati rice cooked with mixed vegetables."
-      },
-      {
-        "name": "Aloo Gobi",
-        "price": "₹110",
-        "description": "Potato and cauliflower cooked with Indian spices."
-      }
-    ]
-  }
+    {
+      "name": "Plain Roti/Chapati",
+      "price": 1,
+      "description": "Soft, whole wheat flatbread cooked on a griddle, staple of every Indian meal."
+    },
+    {
+      "name": "Phulka Roti",
+      "price": 1,
+      "description": "Light and fluffy whole wheat bread puffed over an open flame, served hot with ghee."
+    },
+    {
+      "name": "Partha",
+      "price": 1,
+      "description": "Layered whole wheat flatbread, pan-fried with ghee for a crispy texture."
+    },
+    {
+      "name": "Aloo Partha",
+      "price": 2,
+      "description": "Stuffed whole wheat bread filled with spiced mashed potatoes and cooked on a griddle."
+    },
+    {
+      "name": "Mix Veg Chilla",
+      "price": 1.25,
+      "description": "Savory pancakes made from gram flour and assorted vegetables, lightly spiced and pan-fried."
+    },
+    {
+      "name": "Paneer Partha",
+      "price": 2,
+      "description": "Whole wheat bread stuffed with seasoned paneer, grilled till golden brown."
+    },
+    {
+      "name": "Methi Thepla",
+      "price": 1,
+      "description": "Gujarati-style flatbread made with fresh fenugreek leaves and spices, perfect for snacks or meals."
+    },
+    {
+      "name": "Plain Puri",
+      "price": 0.75,
+      "description": "Deep-fried, puffed whole wheat bread, light and golden, ideal with curries."
+    },
+    {
+      "name": "Masala Puri",
+      "price": 0.75,
+      "description": "Puffed bread seasoned with spices, deep-fried until golden and crispy."
+    },
+    {
+      "name": "Methi Puri",
+      "price": 0.75,
+      "description": "Deep-fried puris made with fenugreek leaves and spices for a flavorful twist."
+    },
+    {
+      "name": "Jowar Bhakari",
+      "price": 1.5,
+      "description": "Rustic, gluten-free flatbread made from jowar (sorghum) flour, cooked on a hot griddle."
+    },
+    {
+      "name": "Thalipeeth",
+      "price": 1.5,
+      "description": "Multi-grain spiced flatbread, a Maharashtrian specialty, cooked until crisp."
+    }
+  ]
+}, 
+
+{"category":"DAL/LENTILS",
+    "items": [
+    {
+      "name": "Pancham Dal",
+      "price": 11.99,
+      "description": "A medley of five different lentils cooked together with aromatic spices for a wholesome dal."
+    },
+    {
+      "name": "Toor Dal",
+      "price": 9.99,
+      "description": "Yellow split pigeon peas cooked with onions, tomatoes, and spices, finished with a tempering of ghee."
+    },
+    {
+      "name": "Split Moong Dal",
+      "price": 9.99,
+      "description": "Yellow split moong lentils simmered in mild spices, light and nutritious."
+    },
+    {
+      "name": "Spinach Dal",
+      "price": 9.99,
+      "description": "Lentils cooked with fresh spinach and tempered with garlic and cumin."
+    },
+    {
+      "name": "Split Masoor Dal",
+      "price": 9.99,
+      "description": "Red lentils prepared in a mildly spiced tomato-based gravy, a comfort food classic."
+    },
+    {
+      "name": "Split Urad Dal",
+      "price": 9.99,
+      "description": "Split black gram lentils cooked with ginger, garlic, and spices for a hearty dish."
+    },
+    {
+      "name": "Split Chana Dal",
+      "price": 11.99,
+      "description": "Nutty split Bengal gram lentils cooked until soft and tempered with onions and spices."
+    },
+    {
+      "name": "Dal Fry",
+      "price": 9.99,
+      "description": "Mixed lentils cooked and finished with a flavorful tempering of onions, tomatoes, and spices."
+    },
+    {
+      "name": "Dal Tadka",
+      "price": 9.99,
+      "description": "Lentils finished with a sizzling tempering of garlic, cumin, and red chillies."
+    },
+    {
+      "name": "Dal Makhani",
+      "price": 11.99,
+      "description": "Creamy slow-cooked whole black lentils and kidney beans, enriched with butter and cream."
+    },
+    {
+      "name": "Special Sambar",
+      "price": 12.99,
+      "description": "A flavorful South Indian lentil stew with vegetables, tamarind, and a special spice blend."
+    }
+  ]
+},
+
+{
+  "category":"NON VEGITERIAN SPECIALITIES",
+   "items": [
+    {
+      "name": "Kolhapuri Chicken Curry",
+      "price": 15,
+      "description": "Spicy chicken curry from Kolhapur, cooked with roasted coconut, dry red chillies, and aromatic spices."
+    },
+    {
+      "name": "Pandhara Rassa",
+      "price": 15,
+      "description": "A mild, coconut-based white curry, traditional to Kolhapur, served with chicken or mutton."
+    },
+    {
+      "name": "Tamabda Rassa",
+      "price": 15,
+      "description": "Fiery red curry from Kolhapur made with robust spices, served with tender chicken or mutton."
+    },
+    {
+      "name": "Kolhapuri Mutton",
+      "price": 25,
+      "description": "Succulent mutton pieces cooked in a spicy Kolhapuri-style masala rich in flavors."
+    },
+    {
+      "name": "Egg Curry",
+      "price": 12,
+      "description": "Boiled eggs simmered in a spiced onion-tomato gravy, perfect with rice or roti."
+    },
+    {
+      "name": "Egg Bhurji",
+      "price": 12,
+      "description": "Indian-style scrambled eggs with onions, tomatoes, green chillies, and spices."
+    },
+    {
+      "name": "Egg Fried rice",
+      "price": 11.99,
+      "description": "Basmati rice stir-fried with eggs, vegetables, and Indo-Chinese sauces."
+    },
+    {
+      "name": "Chicken Biryani",
+      "price": 15,
+      "description": "Aromatic basmati rice layered with spiced chicken, slow-cooked with herbs and fried onions."
+    }
+  ]
+},
+{ 
+"category":"SPECIAL DESSERTS",
+    "items": [
+    {
+      "name": "HomeMade vanilla Icecreme",
+      "price": 4.99,
+      "description": "Creamy homemade vanilla ice cream crafted with pure vanilla and fresh cream."
+    },
+    {
+      "name": "Moong Dal halwa",
+      "price": 12.99,
+      "description": "A rich, decadent dessert made from moong dal, ghee, sugar, and nuts."
+    },
+    {
+      "name": "Gajar Halwa",
+      "price": 12.99,
+      "description": "Classic North Indian dessert made with grated carrots, milk, sugar, and ghee, topped with nuts."
+    },
+    {
+      "name": "Shevaya kheer",
+      "price": 10.99,
+      "description": "Vermicelli pudding cooked with milk, sugar, and cardamom, garnished with nuts."
+    },
+    {
+      "name": "Rice Kheer",
+      "price": 10.99,
+      "description": "Traditional rice pudding simmered in milk with sugar, cardamom, and nuts."
+    },
+    {
+      "name": "Sooji Kheer",
+      "price": 10.99,
+      "description": "Creamy dessert made with semolina, milk, sugar, and cardamom, topped with dried fruits."
+    },
+    {
+      "name": "Cracked Wheet Kheer",
+      "price": 13.99,
+      "description": "Wholesome kheer made from cracked wheat, slow-cooked with milk and sweetened with sugar."
+    }
+  ]
+}
 ]

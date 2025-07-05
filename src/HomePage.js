@@ -7,7 +7,7 @@ function HomePage() {
       <h1>Welcome to Advait Kitchen</h1>
       <p>Delicious homemade food, made with love and delivered fresh to your doorstep.</p>
       <img
-        src="/images/dish1.jpg"
+        src="/images/homepagedish.jpeg"
         alt="Delicious food"
         style={{ width: "350px", borderRadius: "1rem", margin: "2rem auto" }}
       />
