@@ -1,0 +1,67 @@
+[
+  {
+    "category": "Curries",
+    "items": [
+      {
+        "name": "Paneer Tikka Masala",
+        "price": "₹180",
+        "description": "Cottage cheese cooked in creamy tomato gravy."
+      },
+      {
+        "name": "Veg Curry",
+        "price": "₹120",
+        "description": "A spicy and flavorful curry with mixed vegetables."
+      },
+      {
+        "name": "Dal Tadka",
+        "price": "₹100",
+        "description": "Yellow lentils tempered with spices and herbs."
+      }
+    ]
+  },
+  {
+    "category": "Rice",
+    "items": [
+      {
+        "name": "Steamed Rice",
+        "price": "₹50",
+        "description": "Fluffy steamed basmati rice."
+      },
+      {
+        "name": "Jeera Rice",
+        "price": "₹70",
+        "description": "Basmati rice tempered with cumin."
+      }
+    ]
+  },
+  {
+    "category": "Breads",
+    "items": [
+      {
+        "name": "Chapati (2 pcs)",
+        "price": "₹30",
+        "description": "Soft whole wheat flatbreads."
+      },
+      {
+        "name": "Butter Naan",
+        "price": "₹40",
+        "description": "Soft naan topped with butter."
+      }
+    ]
+  },
+  {
+    "category": "Veg Entrees",
+    "items": [
+      {
+        "name": "Veg Pulao",
+        "price": "₹90",
+        "description": "Basmati rice cooked with mixed vegetables."
+      },
+      {
+        "name": "Aloo Gobi",
+        "price": "₹110",
+        "description": "Potato and cauliflower cooked with Indian spices."
+      }
+    ]
+  }
+]
