@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d1eb4a43.js",
+    "static/media/dish2.jpeg": "/static/media/dish2.3dd0b844891700b52335.jpeg",
+    "static/media/feedback1.jpeg": "/static/media/feedback1.acf69bc646f4923e6e02.jpeg",
+    "static/media/feedback2.jpeg": "/static/media/feedback2.dd41440c7f175ec1b327.jpeg",
+    "static/media/feedback5.jpeg": "/static/media/feedback5.aa996cc34799cc1df60d.jpeg",
+    "static/media/homepagedish.jpeg": "/static/media/homepagedish.77eae5d6aaa02f4074a4.jpeg",
+    "static/media/dish3.jpeg": "/static/media/dish3.a373c9e64c6beec0782d.jpeg",
+    "static/media/feedback4.jpeg": "/static/media/feedback4.dffce97dbe255c2832ea.jpeg",
+    "static/media/feedback3.jpeg": "/static/media/feedback3.01c56bacaa6f16e1a42a.jpeg",
+    "static/media/dish4.jpeg": "/static/media/dish4.8e71524c772da3e30f66.jpeg",
+    "static/media/dish6.jpeg": "/static/media/dish6.8c3a9434cd1033a372a5.jpeg",
+    "static/media/dish5.jpeg": "/static/media/dish5.1b44a9168a59b72296dc.jpeg",
+    "static/media/dish1.jpeg": "/static/media/dish1.c9703e1538d7df37e09b.jpeg",
+    "index.html": "/index.html",
+    "main.d1eb4a43.js.map": "/static/js/main.d1eb4a43.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d1eb4a43.js"
+  ]
+}
