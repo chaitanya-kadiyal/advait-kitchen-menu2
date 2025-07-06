@@ -1,23 +1,28 @@
 import React, { useState } from "react";
+import dish1 from './images/dish1.jpeg';
+import dish2 from './images/dish2.jpeg';
+import dish3 from './images/dish3.jpeg';
+import dish4 from './images/dish4.jpeg';
+import dish5 from './images/dish5.jpeg';
+import dish6 from './images/dish6.jpeg';
+import feedback1 from './images/feedback1.jpeg';
+import feedback2 from './images/feedback2.jpeg';
+import feedback3 from './images/feedback3.jpeg';
+import feedback4 from './images/feedback4.jpeg';
+import feedback5 from './images/feedback5.jpeg';
 
 const images = [
-  { src: "/images/dish1.jpeg", caption: "Onion Pakoda/Kanda bhajji" },
-  { src: "/images/dish2.jpeg", caption: "Kolhapuri Misal Pav" },
-  { src: "/images/dish3.jpeg", caption: "Vada Pav" },
-  { src: "/images/dish6.jpeg", caption: "Moon dal halwa" },
-  { src: "/images/dish4.jpeg", caption: "Bhel" },
-  { src: "/images/dish5.jpeg", caption: "Dahi vada" },
-  { src: "/images/dish7.jpeg", caption: "Dabeli" },
-  { src: "/images/dish8.jpeg", caption: "Khaman Dhokala" },
-  { src: "/images/dish9.jpeg", caption: "Dal and Rice" },
-  { src: "/images/dish10.jpeg", caption: "Palak Pulav" },
-  { src: "/images/dish11.jpeg", caption: "Shahi Paneer with Rice" },
-  { src: "/images/feedback1.jpeg", caption: "Housewarming party catering feedback" },
-  { src: "/images/feedback5.jpeg", caption: "Marathi-Wedding catering feedback " },
-  { src: "/images/feedback2.jpeg", caption: "Kids Birthday party catering feedback" },
-  { src: "/images/feedback3.jpeg", caption: "Single order feedback" },
-  { src: "/images/feedback4.jpeg", caption: "Single order feedback" }
-  // Add more images as needed
+  { src: dish1, caption: "Onion Pakoda/Kanda bhajji" },
+  { src: dish2, caption: "Kolhapuri Misal Pav" },
+  { src: dish3, caption: "Vada Pav" },
+  { src: dish6, caption: "Moon dal halwa" },
+  { src: dish4, caption: "Bhel" },
+  { src: dish5, caption: "Dahi vada" },
+  { src: feedback1, caption: "Housewarming party catering feedback" },
+  { src: feedback5, caption: "Marathi-Wedding catering feedback " },
+  { src: feedback2, caption: "Kids Birthday party catering feedback" },
+  { src: feedback3, caption: "Single order feedback" },
+  { src: feedback4, caption: "Single order feedback" }
 ];
 
 function Gallery() {
