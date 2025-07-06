@@ -5,7 +5,9 @@ function HomePage() {
   return (
     <div style={{ padding: "2rem", textAlign: "center" }}>
       <h1>Welcome to Advait Kitchen</h1>
+      <p>Authentic Maharashtrian & Indian Food</p>
       <p>Delicious homemade food, made with love and delivered fresh to your doorstep.</p>
+      <p>Where every bite tells a flavorful tale!</p>
       <img
         src="/images/homepagedish.jpeg"
         alt="Delicious food"

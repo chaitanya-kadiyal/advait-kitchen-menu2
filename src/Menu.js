@@ -1,13 +1,20 @@
 import React from "react";
 import menuData from "./menu.json";
 
+const titleStyle = {
+  color: "orange",
+  textDecoration: "underline",
+  borderBottom: "2px solid #eee", 
+  paddingBottom: "0.5rem",
+};
+
 function Menu() {
   return (
     <div style={{ maxWidth: 700, margin: "2rem auto", padding: "1rem" }}>
       <h1 style={{ textAlign: "center", marginBottom: "2rem" }}>Our Menu</h1>
       {menuData.map((category, catIdx) => (
         <div key={catIdx} style={{ marginBottom: "2.5rem" }}>
-          <h2 style={{ borderBottom: "2px solid #eee", paddingBottom: "0.5rem", color: "#333" }}>
+          <h2 style={ titleStyle }>
             {category.category}
           </h2>
           <ul style={{ listStyle: "none", padding: 0 }}>
