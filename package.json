@@ -2,7 +2,7 @@
   "name": "advait-kitchen",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://chaitanya-kadiyal.github.io",
+  "homepage": "https://chaitanya-kadiyal.github.io/advait-kitchen-menu2",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.2.0",
