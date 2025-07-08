@@ -133,7 +133,7 @@
       "description": "Classic dry curry of cauliflower and potatoes sautéed with cumin, turmeric, and traditional Indian spices."
     },
     {
-      "name": "Cabage Peas",
+      "name": "Cabbage Peas",
       "price": 9.99,
       "description": "Shredded cabbage and green peas stir-fried with mild spices for a light and healthy curry."
     },
@@ -148,7 +148,7 @@
       "description": "Assorted seasonal vegetables cooked in a flavorful onion-tomato gravy with aromatic spices."
     },
     {
-      "name": "Tinda Aloo(Tindora)",
+      "name": "Tinda Aloo (Tindora)",
       "price": 13.99,
       "description": "Ivy gourd and potatoes sautéed in Indian spices, a unique and tasty vegetable preparation."
     },
@@ -163,7 +163,7 @@
       "description": "Potatoes simmered in a tangy tomato gravy, delicately flavored with cumin and coriander."
     },
     {
-      "name": "Jerra Aloo",
+      "name": "Jeera Aloo",
       "price": 9.99,
       "description": "Potatoes sautéed with cumin seeds and dry spices, a quick and flavorful side dish."
     },
@@ -424,12 +424,12 @@
       "description": "Light and fluffy whole wheat bread puffed over an open flame, served hot with ghee."
     },
     {
-      "name": "Partha",
+      "name": "Paratha",
       "price": 1,
       "description": "Layered whole wheat flatbread, pan-fried with ghee for a crispy texture."
     },
     {
-      "name": "Aloo Partha",
+      "name": "Aloo Paratha",
       "price": 2,
       "description": "Stuffed whole wheat bread filled with spiced mashed potatoes and cooked on a griddle."
     },
@@ -439,7 +439,7 @@
       "description": "Savory pancakes made from gram flour and assorted vegetables, lightly spiced and pan-fried."
     },
     {
-      "name": "Paneer Partha",
+      "name": "Paneer Paratha",
       "price": 2,
       "description": "Whole wheat bread stuffed with seasoned paneer, grilled till golden brown."
     },
@@ -537,7 +537,7 @@
 },
 
 {
-  "category":"NON VEGITERIAN SPECIALITIES",
+  "category":"NON VEGETARIAN SPECIALITIES",
    "items": [
     {
       "name": "Kolhapuri Chicken Curry",
@@ -550,7 +550,7 @@
       "description": "A mild, coconut-based white curry, traditional to Kolhapur, served with chicken or mutton."
     },
     {
-      "name": "Tamabda Rassa",
+      "name": "Tambda Rassa",
       "price": 15,
       "description": "Fiery red curry from Kolhapur made with robust spices, served with tender chicken or mutton."
     },
@@ -570,7 +570,7 @@
       "description": "Indian-style scrambled eggs with onions, tomatoes, green chillies, and spices."
     },
     {
-      "name": "Egg Fried rice",
+      "name": "Egg Fried Rice",
       "price": 11.99,
       "description": "Basmati rice stir-fried with eggs, vegetables, and Indo-Chinese sauces."
     },
@@ -585,7 +585,7 @@
 "category":"SPECIAL DESSERTS",
     "items": [
     {
-      "name": "HomeMade vanilla Icecreme",
+      "name": "HomeMade Vanilla Ice Cream",
       "price": 4.99,
       "description": "Creamy homemade vanilla ice cream crafted with pure vanilla and fresh cream."
     },
@@ -615,7 +615,7 @@
       "description": "Creamy dessert made with semolina, milk, sugar, and cardamom, topped with dried fruits."
     },
     {
-      "name": "Cracked Wheet Kheer",
+      "name": "Cracked Wheat Kheer",
       "price": 13.99,
       "description": "Wholesome kheer made from cracked wheat, slow-cooked with milk and sweetened with sugar."
     }
