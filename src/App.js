@@ -1,9 +1,20 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import HomePage from "./HomePage";
 import Gallery from "./Gallery";
 import Menu from "./Menu";
 import Footer from "./Footer";
+
+// ScrollToTop component to scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 // 404 Not Found component
 function NotFound() {
@@ -19,6 +30,7 @@ function App() {
   return (
     <Router>
       <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <ScrollToTop />
         <nav style={{ padding: "1rem", background: "#333" }}>
           <Link to="/" style={{ color: "#fff", marginRight: "2rem", textDecoration: "none", fontWeight: "bold" }}>
             Home
