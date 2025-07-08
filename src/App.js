@@ -5,6 +5,16 @@ import Gallery from "./Gallery";
 import Menu from "./Menu";
 import Footer from "./Footer";
 
+// 404 Not Found component
+function NotFound() {
+  return (
+    <div style={{ padding: "2rem", textAlign: "center" }}>
+      <h1>404 - Page Not Found</h1>
+      <p>The page you're looking for doesn't exist or was moved.</p>
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
@@ -25,6 +35,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/menu" element={<Menu />} />
+            {/* 404 route */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <Footer />
