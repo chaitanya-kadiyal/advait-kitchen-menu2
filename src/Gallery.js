@@ -38,15 +38,39 @@ function Gallery() {
         {images.map((img, idx) => (
           <div
             key={idx}
-            style={{ maxWidth: 250, textAlign: "center", cursor: "pointer" }}
+            style={{ 
+              width: 250, 
+              height: 300, 
+              textAlign: "center", 
+              cursor: "pointer",
+              display: "flex",
+              flexDirection: "column"
+            }}
             onClick={() => openPopup(img)}
           >
-            <img
-              src={img.src}
-              alt={img.caption}
-              style={{ width: "100%", borderRadius: "8px", boxShadow: "0 2px 8px #ccc" }}
-            />
-            <div style={{ marginTop: "0.5rem", fontWeight: "bold" }}>{img.caption}</div>
+            <div style={{ 
+              flex: 1, 
+              overflow: "hidden", 
+              borderRadius: "8px", 
+              boxShadow: "0 2px 8px #ccc",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}>
+              <img
+                src={img.src}
+                alt={img.caption}
+                style={{ 
+                  width: "100%", 
+                  height: "200px", 
+                  objectFit: "cover", 
+                  borderRadius: "8px"
+                }}
+              />
+            </div>
+            <div style={{ marginTop: "0.5rem", fontWeight: "bold", height: "60px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              {img.caption}
+            </div>
           </div>
         ))}
       </div>
@@ -75,7 +99,13 @@ function Gallery() {
             <img
               src={popupImage.src}
               alt={popupImage.caption}
-              style={{ maxWidth: "90vw", maxHeight: "80vh", borderRadius: 8, display: "block" }}
+              style={{ 
+                maxWidth: "90vw", 
+                maxHeight: "80vh", 
+                borderRadius: 8, 
+                display: "block",
+                objectFit: "contain"
+              }}
             />
             <div style={{ color: "#fff", textAlign: "center", marginTop: 12, fontSize: 18 }}>
               {popupImage.caption}
